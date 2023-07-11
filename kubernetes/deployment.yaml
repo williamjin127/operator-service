@@ -58,7 +58,7 @@ spec:
             configMapKeyRef:
               key: POSTGRES_PORT
               name: postgres-config
-        image: oceanprotocol/operator-service:v1.0.1
+        image: zetorange/operator-service:v1.3.0
         imagePullPolicy: Always
         name: operator-api
         ports:
